@@ -1,0 +1,35 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+body{
+    background: linear-gradient(110deg, #fbff20 60%, #ffed4b 60%);
+}
+
+.container{
+    text-align: center;
+    margin-top: 10%;
+}
+.container1{
+    font-size: xx-large;
+    font-weight: 600;
+}
+.input1{
+    margin: 1.5%;
+}
+button{
+    padding: .75%;
+    margin-top: .8%;
+    border-radius: 8%;
+   
+
+}
+button:hover{
+    background-color: rgb(101, 219, 227);
+}
